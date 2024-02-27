@@ -1,0 +1,73 @@
+    html{
+    scroll-behavior: smooth;
+}
+
+.logo-img{
+    width: 150px;
+    height: 150px;
+    mix-blend-mode: multiply;
+}
+
+.contact-section{
+    /* outline: 2px solid lime; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo-txt{
+    color:#000
+
+}
+
+.home{
+    color:black;    
+}
+.places{
+    color: black;
+}
+.hotels{
+    color: black;
+}
+.about{
+    color:#000;
+}
+body{
+    background-color:aliceblue ;
+}
+.head{
+    color: black;
+}
+
+.TTT{
+    color: black;
+    font-size: large;
+    font:bold;
+    border-bottom: 2px solid #000;
+}
+
+.nav-item{
+    display: block;
+    transition: 0.5s;
+}
+
+nav:hover .nav-links{
+    filter: blur(5px);
+}
+
+nav:hover .nav-links:hover{
+    filter: blur(0px);
+}
+
+nav{
+    filter: blur(0px);
+}
+
+.abc{
+    color: burlywood;
+}
+
+h1{
+    color: blueviolet;
+}
